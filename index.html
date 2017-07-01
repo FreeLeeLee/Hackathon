@@ -57,15 +57,20 @@
 			<div class="col-full">
 				<h4 style="color:#f85c37">Case Information</h4>
 						<form>
-						<input id="inpPatientsex" type="text" placeholder="Sex of patient...">
-						<input id="inpAge" type="text" placeholder="Age of Patient">
-						<input id="inId" type="text" placeholder="Identity number of Patient...">
-					    <input id="inpReportDat" type="text" placeholder="Date of diagnosis">			   		
+						<input id="inpPatientsex" type="radio" name="gender" value="Male">Male
+						<input id="inpPatientsex" type="radio" name="gender" value="Female">Female
+						<input id="inpAge" type="number" placeholder="Age of Patient"> </br>
+						<lable for="inID">Identity number of Patient:</lable>
+						<input id="inId" type="text">
+					    <input id="inpReportDat" type="date" placeholder="Date of diagnosis">			   		
 						<div class="col-lg-4">
 						<label for="inpMortality">Did case end in Mortality? :</label>						
-						<input id="inpMortality" type="text" placeholder="Yes/No">
+						<input id="inpMortality" type="radio" name="mortality" placeholder="Yes/No" value="Yes">Yes
+						<input id="inpMortality" type="radio" name="mortality" placeholder="Yes/No" value="No">No </br>
 						<label for="inpTreatment">Did patient recieve treatment? :</label>
-						<input id="inpTreatment" type="text" placeholder="Yes/No">						
+						<input id="inpTreatment" type="radio" value="Yes"> Yes
+						<input id="inpTreatment" type="radio" value="No"> No
+						
 						
 						</div>
 						</form>
