@@ -686,19 +686,19 @@ header nav ul li a.bordered {
 }
 
 
-#Container {
-  font-family: opensansCondBold,Arial,helvetica,sans-serif;
-  height: auto;
-  width: 300px;
-  background-color: #FFF;
-  opacity: 0.9;
-  margin-left: 15px;
-  padding-right: 10px;
-  padding-left: 10px;
-  padding-bottom: 10px;
-  position: absolute;
-  left: 8px;
-  top: 30px;
-  border-radius: 6px;
-  z-index: 1050;
+#container {
+	font-family: opensansCondBold,Arial,helvetica,sans-serif;
+	height: auto;
+	width: 300px;
+	background-color: #FFF;
+	opacity: 0.9;
+	margin-left: 15px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	position: absolute;
+	left: 8px;
+	top: 30px;
+	border-radius: 6px;
+	z-index: 1050;
 }
