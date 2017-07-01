@@ -690,7 +690,7 @@ header nav ul li a.bordered {
 	font-family: opensansCondBold,Arial,helvetica,sans-serif;
 	height: auto;
 	width: 300px;
-	background-color: #FFF;
+	background-color: #E85151;
 	opacity: 0.9;
 	margin-left: 15px;
 	padding-right: 10px;
@@ -698,7 +698,7 @@ header nav ul li a.bordered {
 	padding-bottom: 10px;
 	position: absolute;
 	left: 8px;
-	top: 30px;
+	top: 1450px;
 	border-radius: 6px;
 	z-index: 1050;
 }
